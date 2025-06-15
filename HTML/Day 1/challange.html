@@ -16,7 +16,11 @@
             border: none;
             cursor: pointer;
             margin-right: 10px;
+            transition: opacity .17s;
 
+        }
+        .uber:hover{
+            opacity: 0.7;
         }
 
         .amazon{
@@ -28,6 +32,10 @@
             border-radius: 20px;
             margin-right: 10px;
             cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .amazon:hover{
+            background-color: rgb(241, 186, 4);
         }
         .github{
             background-color: rgb(46, 164, 79);
@@ -39,6 +47,10 @@
             border-radius: 4px;
             margin-right: 10px;
             cursor: pointer;
+            transition: box-shadow .15s;
+        }
+        .github:hover{
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
         }
 
         .bsget{
@@ -53,7 +65,11 @@
             cursor: pointer;
             margin-top: 15px;
             margin-right: 5px;
+            transition: opacity .2s;
 
+        }
+        .bsget:hover{
+            opacity: 0.7;
         }
         .bsdow{
             background-color: transparent;
@@ -67,6 +83,11 @@
             cursor: pointer;
             margin-top: 15px;
             margin-right: 10px;
+            transition: background-color .17s, color .17s;
+        }
+        .bsdow:hover{
+            background-color: rgb(108,117,125);
+            color: white;
         }
 
         .linkedin{
@@ -83,7 +104,11 @@
             width: 225px;
             border-radius: 40px;
             cursor: pointer;
+            transition: background-color .17s;
             
+        }
+        .apply:hover{
+            background-color:rgb(0, 82, 163) ;
         }
 
         .save{
@@ -91,11 +116,17 @@
             color: rgb(10,102,194);
             border-color: rgb(10,102,194);
             font-weight: bold;
+            border-width: 1px;
             height: 35px;
             width: 80px;
             border-radius: 40px;
             border-style: solid;
             cursor: pointer;
+            transition: background-color .15s;
+        }
+        .save:hover{
+            border-width: 2px;
+            background-color: rgba(10, 102, 194, 0.144) ;
         }
 
     </style>
