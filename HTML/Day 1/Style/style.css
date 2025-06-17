@@ -1,0 +1,129 @@
+.uber {
+  background-color: black;
+  color: aliceblue;
+  height: 35px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity .17s;
+
+}
+
+.uber:hover {
+  opacity: 0.7;
+}
+
+.amazon {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 35px;
+  width: 175px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.amazon:hover {
+  background-color: rgb(241, 186, 4);
+}
+
+.github {
+  background-color: rgb(46, 164, 79);
+  color: aliceblue;
+  font-weight: bold;
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: box-shadow .15s;
+}
+
+.github:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bsget {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  font-weight: bold;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 5px;
+  transition: opacity .2s;
+
+}
+
+.bsget:hover {
+  opacity: 0.7;
+}
+
+.bsdow {
+  background-color: transparent;
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  font-weight: bold;
+  height: 35px;
+  width: 100px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 10px;
+  transition: background-color .17s, color .17s;
+}
+
+.bsdow:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linkedin {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  font-weight: bold;
+  height: 35px;
+  width: 225px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color .17s;
+
+}
+
+.apply:hover {
+  background-color: rgb(0, 82, 163);
+}
+
+.save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-color: rgb(10, 102, 194);
+  font-weight: bold;
+  border-width: 1px;
+  height: 35px;
+  width: 80px;
+  border-radius: 40px;
+  border-style: solid;
+  cursor: pointer;
+  transition: background-color .15s;
+}
+
+.save:hover {
+  border-width: 2px;
+  background-color: rgba(10, 102, 194, 0.144);
+}

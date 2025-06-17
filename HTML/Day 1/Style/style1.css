@@ -1,0 +1,39 @@
+ .link:hover {
+   color: rgb(216, 54, 54);
+ }
+
+ .add {
+   background-color: rgb(255, 216, 20);
+   color: black;
+   height: 35px;
+   width: 100px;
+   border: none;
+   border-radius: 50px;
+   margin-right: 10px;
+   cursor: pointer;
+   transition: all .15s;
+ }
+
+ .add:hover {
+   background-color: rgb(255, 192, 20);
+ }
+
+ .buy {
+   background-color: rgb(255, 161, 20);
+   color: black;
+   height: 35px;
+   width: 100px;
+   border: none;
+   border-radius: 50px;
+   margin-right: 10px;
+   cursor: pointer;
+   transition: all .15s;
+ }
+
+ .buy:hover {
+   background-color: rgb(255, 106, 20);
+ }
+
+ .prize {
+   color: rgb(0, 118, 0);
+ }
